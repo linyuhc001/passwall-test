@@ -33,7 +33,8 @@ rm -rf package/lean/luci-theme-argon && git clone https://github.com/jerrykuku/l
 git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 
 # 替换更新passwall
-svn co https://github.com/db-one/dbone-update/branches/18.06/passwall package/passwall
+# svn co https://github.com/db-one/dbone-update/branches/18.06/passwall package/passwall
+git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
 
 # 自定义定制选项
 sed -i 's#192.168.1.1#192.168.3.105#g' package/base-files/files/bin/config_generate #定制默认IP
