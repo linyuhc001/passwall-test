@@ -35,6 +35,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-ar
 # 替换更新passwall
 # svn co https://github.com/db-one/dbone-update/branches/18.06/passwall package/passwall
 git clone https://github.com/xiaorouji/openwrt-passwall package/passwall
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy package/passwall/https-dns-proxy
 
 # 自定义定制选项
 sed -i 's#192.168.1.1#192.168.3.105#g' package/base-files/files/bin/config_generate #定制默认IP
