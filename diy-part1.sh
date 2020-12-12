@@ -21,6 +21,10 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-j
 # svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 # git clone https://github.com/garypang13/luci-theme-edge package/luci-theme-edge -b 18.06
 
+# adguardhome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome package/adguardhome
+
 # 添加openclash
 cd ..
 git clone https://github.com/vernesong/OpenClash
